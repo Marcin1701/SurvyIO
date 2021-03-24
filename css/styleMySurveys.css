@@ -1,0 +1,35 @@
+.content {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  box-shadow: 0 0 20px 10px #515e6b;
+  border: #ffffff;
+  border-style: solid;
+}
+
+input[type="button"],
+[type="submit"] {
+  cursor: pointer;
+  width: 80%;
+  background-color: #515e6b;
+  color: #ffffff;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  font-size: 25px;
+  margin-right: 8%;
+  margin-left: 8%;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+input[type="button"]:hover,
+[type="submit"]:hover {
+  background-color: #6ca6e1;
+  box-shadow: 0 0 10px 2px #515e6b;
+}
+
+input[type="button"]:focus [type="submit"]:focus {
+  box-shadow: 0 0 5px 2px #6ca6e1;
+}

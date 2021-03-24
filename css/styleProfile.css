@@ -1,0 +1,87 @@
+.rectangle{
+    width: 100%;
+}
+
+.tileB {
+    background-color: #515E6B;
+    float:left;
+    width: 400px;
+    height: 400px;
+    margin: 70px;
+    border: #ffffff;
+    border-style: solid;
+    font-size: 35px;
+    text-align: center;
+    box-shadow: 0px 0px 30px #6CA6E1;
+    padding: 10px;
+}
+
+.tileB:hover {
+    box-shadow: 0 0 30px #515E6B;
+    background-color:#6CA6E1;
+}
+
+a.tilelink {
+    color:#ffffff;
+    text-decoration: none;
+    display: block;
+    width: 410px;
+    height: 410px;
+}
+
+.wrapper{
+    margin: 0px;
+}
+
+#logout {
+    background-color: #515E6B;
+    float:left;
+    width: 930px;
+    height: 100px;
+    margin: 70px;
+    font-size: 40px;
+    text-align: center;
+    border: #ffffff;
+    border-style: solid;
+    padding: 20px;
+    box-shadow: 0px 0px 30px #6CA6E1;
+}
+
+#logout:hover {
+    background-color: #6CA6E1;
+    box-shadow: 0 0 30px #515E6B;
+}
+
+a.logoutlink {
+    color:#ffffff;
+    text-decoration: none;
+    display: block;
+    width: 970px;
+    height: 100px;
+}
+
+#mail {
+    background-color: #515E6B;
+    float:left;
+    width: 930px;
+    height: 100px;
+    margin: 70px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+    border: #ffffff;
+    border-style: solid;
+}
+
+.tileP {
+    background-color: #515E6B;
+    color: #ffffff;
+    float:left;
+    width: 400px;
+    height: 400px;
+    margin: 70px;
+    border: #ffffff;
+    border-style: solid;
+    padding: 5px;
+    font-size: 40px;
+}

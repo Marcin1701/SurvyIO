@@ -1,0 +1,102 @@
+body {
+  background-color: #bac4ce;
+  font-size: 25px;
+  font-family: Spartan;
+  color: #ffffff;
+  margin: 0 !important;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 70px;
+  text-shadow: 1px 1px 0px #000000, 1px 1px 1px #000000, 1px 1px 3px #000000;
+  text-align: center;
+  padding: 40px;
+}
+
+.nav {
+  padding: 10px 0;
+  background-color: #515e6b;
+  text-align: center;
+  border-top: 5px solid #6ca6e1;
+  border-bottom: 5px solid #6ca6e1;
+  font-size: 50px;
+}
+
+/*Linki jako bloczki na pasku nav*/
+.nav ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 18px;
+  min-height: 10px;
+  line-height: 250%;
+  display: inline-block;
+}
+/*Stylizacja linków z nav*/
+.nav ol a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  text-shadow: 1px 1px 0px #000000, 1px 1px 1px #000000, 1px 1px 3px #000000;
+}
+
+/*Ułożenie kafelków z nav poziomo w pasku*/
+.nav ol > li {
+  float: left;
+  width: 150px;
+  height: 50px;
+  border-right: 2px dashed #6ca6e1;
+}
+
+/*Stylizacja bloczków z nav po najechaniu kursorem*/
+.nav ol > li:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+}
+
+/*Kolor teksu linka z nav po najechaniu myszką*/
+.nav ol > li:hover > a {
+  color: #515e6b;
+  opacity: 1;
+}
+
+/*Opcje 'sticky' dla paska nav*/
+.sticky {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+
+/*Div z marginesami*/
+.row {
+  margin: 20px 10px;
+}
+
+/*Tytuł podstrony*/
+#pageTitle {
+  color: #6ca6e1;
+  font-size: 40px;
+  text-shadow: 1px 1px 0px #000000, 1px 1px 1px #ffffff, 1px 1px 3px #ffffff;
+  text-align: center;
+  margin: 20px;
+  font-weight: bold;
+}
+
+/*Zawartość podstrony*/
+#content {
+  text-align: center;
+  width: 100%;
+}
+
+/*Stylizacja stopki*/
+.footer {
+  background-color: #515e6b;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  clear: both;
+  margin-top: 25px;
+}
